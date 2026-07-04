@@ -33,7 +33,7 @@ This repository is a research-focused fork of CSSFontFace & Lapse Exploit that a
 ## 📝 ToDo & Status
 
 - [ ] Write ROPs for firmware versions `10.00` to `11.02`
-- [x] **Firmware Compatibility:** Only version `9.00` has been fully tested so far.
+- [x] **Firmware Compatibility:** `9.00`, `9.60` has been fully tested so far.
 
 > 💡 *Note: If you test this on other firmware versions, feel free to open an issue or submit a PR to update the compatibility list!*
 
