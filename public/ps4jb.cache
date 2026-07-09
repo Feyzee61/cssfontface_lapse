@@ -3,7 +3,9 @@ CACHE MANIFEST
 
 cache.html
 index.html
-bundle.js
+main.js
+lapse.js
+dummy.js
 payload.bin
 
 NETWORK:
