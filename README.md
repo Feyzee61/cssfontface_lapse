@@ -27,18 +27,15 @@ This repository is a research-focused fork of CSSFontFace & Lapse Exploit that a
 - **Single-File** `.js` **Conversion** — All `.mjs` files have been removed and converted into a single plain `.js` file. This greatly improves cross-platform compatibility and simplifies loading requirements.
 - **Log Optimization** — Cleaned up and commented out standard "success path" debugging logs to reduce side effects and improve runtime consistency.
     > ⚠️ **Note:** This optimization only applies to success messages. All warnings, errors, and other critical diagnostic logs remain fully intact and active.
-- **Lapse Integration** — Merged with the Lapse core from the [psfree_lapse](https://github.com/Feyzee61/psfree_lapse) repository.
+- **Lapse Integration** — Merged with the Lapse core from the [psfree_lapse](https://github.com/Feyzee61/psfree_lapse) repository. It now utilizes a single plain `.js` source file loaded via dynamic script loading, keeping the impact on the entrypoint minimal.
 - **Caching Support** — Implemented built-in caching support for ease of use without requiring a PC.
 
 ## 📝 ToDo & Status
 
 - [ ] Write ROPs for firmware versions `10.00` to `11.02`
-- [x] **Firmware Compatibility:** `9.00`, `9.60` has been fully tested so far.
+- [x] **Firmware Compatibility:** `9.00`, `9.60` has been fully tested so far. `11.02` is working on entrypoint.
 
-> 💡 *Note: If you test this on other firmware versions, feel free to open an issue or submit a PR to update the compatibility list!*
-
-
-
+> 💡 *Note: If you test this on other firmware versions, feel free to open an issue to update the compatibility list!*
 
 ## 📝 Notes:
 
